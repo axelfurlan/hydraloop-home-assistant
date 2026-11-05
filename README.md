@@ -4,6 +4,27 @@ A small bridge that reads your [Hydraloop](https://www.hydraloop.com) water recy
 
 This is a community project. It is not affiliated with or endorsed by Hydraloop.
 
+## Screenshots
+
+Normal operation:
+
+![Hydraloop dashboard card](docs/screenshots/card.png)
+
+Tap a tank or a statistic to open the history of that value:
+
+![History of the reusable water level](docs/screenshots/history.png)
+
+Faults appear in a dedicated card, only while HDM reports a problem:
+
+![Fault card](docs/screenshots/fault.png)
+
+To prevent accidental activation, the bypass button is locked. Hold it until the lock icon disappears, then tap within 5 seconds to switch the bypass. After that the lock comes back.
+
+<p>
+  <img src="docs/screenshots/bypass-locked.png" alt="Bypass button, locked" width="300">
+  <img src="docs/screenshots/bypass-unlocked.png" alt="Bypass button, unlocked" width="300">
+</p>
+
 ## What you get
 
 One Home Assistant device per Hydraloop coupled to your API key, with:
