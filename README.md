@@ -76,7 +76,7 @@ The card in [dashboard/hydraloop-card.yaml](dashboard/hydraloop-card.yaml) shows
    - [button-card](https://github.com/custom-cards/button-card) (tested with 7.0.1)
    - [fluid-level-background-card](https://github.com/swingerman/lovelace-fluid-level-background-card) (tested with 0.2.0)
 2. Replace every `yourserial` in the file with your Hydraloop serial in lower case, for example `ha12345678`. Your entity ids show the exact value: `sensor.hydraloop_<serial>_water_recycled_today`.
-3. Add a picture of the appliance as a transparent PNG at `config/www/hydraloop.png`. No picture is included, because product photos are copyrighted.
+3. Copy [dashboard/hydraloop.png](dashboard/hydraloop.png) to `config/www/hydraloop.png` in Home Assistant. You can use any transparent PNG of the appliance instead.
 4. In a dashboard, add a **Manual** card and paste the file content. The card is built for a sections view at full width (24 columns). Text scales with the card size.
 
 The bypass button is locked against accidental taps: hold it to unlock, then tap within 5 seconds.
@@ -91,4 +91,4 @@ The bypass button is locked against accidental taps: hold it to unlock, then tap
 
 ## License
 
-[MIT](LICENSE)
+The code and the card are released under the [MIT](LICENSE) license.

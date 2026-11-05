@@ -1,7 +1,7 @@
 # Hydraloop card for Home Assistant (picture-elements).
 # Requires the HACS frontend cards button-card and fluid-level-background-card.
 # Replace every 'yourserial' with your Hydraloop serial in lower case (e.g. ha12345678),
-# and put a transparent PNG of the appliance at config/www/hydraloop.png.
+# and copy dashboard/hydraloop.png (or your own transparent PNG) to config/www/hydraloop.png.
 type: picture-elements
 image: data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 3'%3E%3C/svg%3E
 style: |
